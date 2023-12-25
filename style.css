@@ -4,5 +4,36 @@
     align-items: center;
 }
 .mainHeaderLogo{
-    font-size:larger
+    font-size:larger;
+}
+
+.firstPlayerGrid{
+    border: 1px solid red;
+}
+    
+
+.gameContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.gameBoard {
+    max-height: 500px;
+    aspect-ratio: 1;
+    border: 1px solid blue;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    
+
+}
+.gameCell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black dotted
+
+
+
 }
